@@ -43,12 +43,6 @@ path_video= filedialog.askopenfilename()
 path_img = filedialog.askdirectory()
 taxa = input("Quantos segundos por captura?")
 
-#if procura:
-#    for path_quest in path_busca:
-#        print(path_quest)
-#        procura_rostos(path_quest,True,path+"\\faces",False)
-
-
 # inicia o vídeo
 cap = cv2.VideoCapture(path_video)
 
