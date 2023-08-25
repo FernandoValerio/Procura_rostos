@@ -1,6 +1,5 @@
 from tkinter import filedialog
 import cv2
-from retinaface import RetinaFace
 import matplotlib.pyplot as plt
 
 def cria_imagem (imagem,path,executa=True):
